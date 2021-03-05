@@ -1,10 +1,9 @@
 {
-  "//1": "",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
+  "//1": "Astronomy Events API",
+  "//2": "Simple API to get all astonomy events like moon phases, meteor showers, planet alighments...",
   "name": "Astronomy Events API",
   "version": "0.0.1",
-  "description": "A simple Node app built on Express, instantly up and running.",
+  "description": "Asronomy Events API.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
