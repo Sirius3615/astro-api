@@ -15,12 +15,12 @@ const events = [
 
 var api_prefix = '/api/v2'
 
+//Get all events
 app.get(api_prefix + "/events", (req, res) => {
-  
   res.send(events);
 });
 
 
 const listener = app.listen(process.env.PORT, () => {
-  console.log("Your app is listening on port " + listener.address().port);
+  console.log("API is listening on port " + listener.address().port + '  So its all runing good :)');
 });
