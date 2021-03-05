@@ -7,12 +7,28 @@ const events = [
       "id" : 242021,
       "date" : "02.04.2021",
       "title" : "M104 is well placed",
-      "summary" : "",
-      "url" : "",
-      "imageUrl" : "",
+      "summary" : "The sombrero galaxy (M104, NGC 4594; mag 9.0) will be well placed, high in the sky. It will reach its highest point in the sky at around midnight local time. At a declination of -11°37', it is easiest to see from the southern hemisphere; it can be seen at latitudes between 58°N and 81°S.",
+      "url" : "https://in-the-sky.org/news.php?id=20210401_17_100",
+      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/deepsky/m104_is_well_placed.jpg",
+      "important" : false
+    },
+  {
+      "id" : 442021, // 2 - day, 4 - month, 2021 - year
+      "date" : "04.04.2021",
+      "title" : "Moon at Last Quarter",
+      "summary" : "The Moon will be prominent in the dawn sky, rising at around midnight. Over coming days, the Moon will rise later each day, so that it is visible for less time before sunrise and it less far above the eastern horizon before dawn. By the time it reaches new moon, it will rise at around dawn and set at around dusk, making it visible only during the daytime.",
+      "url" : "https://in-the-sky.org/news.php?id=20210404_08_100",
+      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/moon_at_last_quarter.jpg",
       "important" : false
     }
 ];
+
+
+
+
+
+
+
 
 var api_prefix = '/api/v2'
 
