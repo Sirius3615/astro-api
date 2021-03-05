@@ -5,7 +5,7 @@ const app = express();
 const events = [
   {
       "id" : 142021,
-      "date" : "01.03.2012",
+      "date" : "01.04.2021",
       "title" : "The Moon at aphelion",
       "summary" : "The Moon's monthly orbit around the Earth will carry it to its furthest point from the Sun – its aphelion – at a distance of 0.9930 AU from the Sun.",
       "url" : "https://in-the-sky.org/news.php?id=20210301_08_100",
@@ -30,6 +30,11 @@ app.get(api_prefix + "/events/:id", (req, res) => {
 
 //POST new data - admin only
 app.post(api_prefix + "/post/event", (req, res) => {
+  if (!req.body.title || req.body.title.lenght < 3) {
+    //404 
+    res.status(404).send('Title is required and shoud be longer than 3 characters.')
+    return;
+  }
    const event_new = {
      id: req.body.id,
      date: req.body.date,
