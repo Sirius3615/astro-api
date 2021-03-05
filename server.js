@@ -11,7 +11,7 @@ const events = [
       "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/the_moon_at_aphelion.jpg",
        "important" : false
     }
-]
+];
 
 var api_prefix = '/api/v2'
 
@@ -20,6 +20,11 @@ app.get(api_prefix + "/events", (req, res) => {
   res.send(events);
 });
 
+//Get event by date
+app.get(api_prefix + "/events/:date", (req, res) => {
+  const event = events.find(c => c.date === parseInt(req.params.date));
+  if (!event) res.status(404).send('not fouds')
+});
 
 const listener = app.listen(process.env.PORT, () => {
   console.log("API is listening on port " + listener.address().port + '  So its all runing good :)');
