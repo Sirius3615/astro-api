@@ -28,6 +28,21 @@ app.get(api_prefix + "/events/:id", (req, res) => {
   res.send(event);
 });
 
+//POST new data - admin only
+app.post(api_prefix + "/post/event", (req, res) => {
+   const event_new = {
+     id: req.body.id,
+     date: req.body.date,
+     title: req.body.title,
+     summary: req.body.summary,
+     url: req.body.url,
+     imageUrl: req.body.imageUrl,
+     important: req.body.important
+   };
+  events.push(event_new);
+  req.send(event_new);
+});
+
 const listener = app.listen(process.env.PORT, () => {
   console.log("API is listening on port " + listener.address().port + '  So its all runing good :)');
 });
