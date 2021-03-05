@@ -4,7 +4,7 @@ const app = express();
 
 const events = [
   {
-      "id" : 132021,
+      "id" : 142021,
       "date" : "01.03.2012",
       "title" : "The Moon at aphelion",
       "summary" : "The Moon's monthly orbit around the Earth will carry it to its furthest point from the Sun – its aphelion – at a distance of 0.9930 AU from the Sun.",
@@ -25,7 +25,7 @@ app.get(api_prefix + "/events", (req, res) => {
 app.get(api_prefix + "/events/:id", (req, res) => {
   const event = events.find(c => c.id === parseInt(req.params.id));
   if (!event) res.status(404).send('The event for the given date was not found.')
-  res.send(event)
+  res.send(event);
 });
 
 const listener = app.listen(process.env.PORT, () => {
