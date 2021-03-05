@@ -4,12 +4,12 @@ const app = express();
 
 const events = [
   {
-      "id" : 142021,
-      "date" : "01.04.2021",
-      "title" : "The Moon at aphelion",
-      "summary" : "The Moon's monthly orbit around the Earth will carry it to its furthest point from the Sun – its aphelion – at a distance of 0.9930 AU from the Sun.",
-      "url" : "https://in-the-sky.org/news.php?id=20210301_08_100",
-      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/the_moon_at_aphelion.jpg",
+      "id" : 242021,
+      "date" : "02.04.2021",
+      "title" : "M104 is well placed",
+      "summary" : "",
+      "url" : "",
+      "imageUrl" : "",
       "important" : false
     }
 ];
