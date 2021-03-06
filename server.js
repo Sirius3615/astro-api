@@ -19,7 +19,7 @@ const events = [
       "summary" : "The Moon will be prominent in the dawn sky, rising at around midnight. Over coming days, the Moon will rise later each day, so that it is visible for less time before sunrise and it less far above the eastern horizon before dawn. By the time it reaches new moon, it will rise at around dawn and set at around dusk, making it visible only during the daytime.",
       "url" : "https://in-the-sky.org/news.php?id=20210404_08_100",
       "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/moon_at_last_quarter.jpg",
-      "important" : true
+      "important" : false
     }
 ];
 
@@ -40,15 +40,8 @@ app.get(api_prefix + "/events", (req, res) => {
 });
 
 //Get event by id (date)
-app.get(api_prefix + "/events/:id", (req, res) => {
+app.get(api_prefix + "/event/:id", (req, res) => {
   const event = events.find(c => c.id === parseInt(req.params.id));
-  if (!event) res.status(404).send('The event for the given date was not found.')
-  res.send(event);
-});
-
-
-app.get(api_prefix + "/events/important/:id", (req, res) => {
-  const event = events.find(c => c.id === parseInt(req.params.important));
   if (!event) res.status(404).send('The event for the given date was not found.')
   res.send(event);
 });
