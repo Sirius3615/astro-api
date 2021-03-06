@@ -46,10 +46,12 @@ app.get(api_prefix + "/event/:id", (req, res) => {
   res.send(event);
 });
 
-app.get(api_prefix + "/event/important/:id", (req, res) => {
-const event = events.getByImportant({important: req.params.id});
+app.get(api_prefix + "/event/important/:important", (req, res) => {
+const event = ({important: req.params.id});
+const result = events.find(c => c.important === parseInt(req.params.important));
+  
   if (!event) res.status(404).send('The event for the given date was not found.')
-  res.send(event); 
+  res.json(result); 
     
 });
 
