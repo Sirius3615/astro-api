@@ -47,12 +47,15 @@ app.get(api_prefix + "/event/:id", (req, res) => {
 });
 
 app.get(api_prefix + "/event/important/:important", (req, res) => {
-  const important = req.params.important;
   
-  
-        res.send(important)
+  const itemId = req.params.important;
+   const item = events.find(_item => _item.important === itemId);
 
-    // Sending 404 when not found something is a good practice
+   if (item) {
+      res.json(item);
+   } else {
+      res.json({ message: `item ${itemId} doesn't exist`})
+   }
     
 });
 
