@@ -50,8 +50,7 @@ app.get(api_prefix + "/event/important/:important", (req, res) => {
   const important = req.params.important;
   
   
-        res.send
-    }
+        res.send(important)
 
     // Sending 404 when not found something is a good practice
     
