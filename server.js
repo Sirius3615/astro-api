@@ -28,7 +28,9 @@ const events = [
 
 
 
-
+//=============
+// ROUTES
+//=============
 
 var api_prefix = '/api/v2'
 
@@ -37,7 +39,7 @@ app.get(api_prefix + "/events", (req, res) => {
   res.send(events);
 });
 
-//Get event by date
+//Get event by id (date)
 app.get(api_prefix + "/events/:id", (req, res) => {
   const event = events.find(c => c.id === parseInt(req.params.id));
   if (!event) res.status(404).send('The event for the given date was not found.')
@@ -64,6 +66,9 @@ app.post(api_prefix + "/post/event", (req, res) => {
   req.send(event_new);
 });
 
+//============
+// LISTENER
+
 const listener = app.listen(process.env.PORT, () => {
-  console.log("API is listening on port " + listener.address().port + '  So its all runing good :)');
+  console.log("API is listening on port " + listener.address().port );
 });
