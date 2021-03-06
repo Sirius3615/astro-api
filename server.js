@@ -46,16 +46,10 @@ app.get(api_prefix + "/event/:id", (req, res) => {
   res.send(event);
 });
 
-app.get(api_prefix + "/event/important/:important", (req, res) => {
-  
-  const itemId = req.params.important;
-   const item = events.find(_item => _item.important === itemId);
-
-   if (item) {
-      res.json(item);
-   } else {
-      res.json({ message: `item ${itemId} doesn't exist`})
-   }
+app.get(api_prefix + "/event/important/:id", (req, res) => {
+const event = events.getByImportant({important: req.params.id});
+  if (!event) res.status(404).send('The event for the given date was not found.')
+  res.send(event); 
     
 });
 
@@ -66,7 +60,7 @@ app.post(api_prefix + "/post/event", (req, res) => {
     //404 
     res.status(404).send('Title is required and shoud be longer than 3 characters.')
     return;
-  }
+  } 
    const event_new = {
      id: req.body.id,
      date: req.body.date,
