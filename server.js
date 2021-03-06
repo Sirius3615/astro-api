@@ -46,10 +46,15 @@ app.get(api_prefix + "/event/:id", (req, res) => {
   res.send(event);
 });
 
-app.get(api_prefix + "/event/:important", (req, res) => {
-  const event = events.find(c => c.id === parseInt(req.params.id));
-  if (!event) res.status(404).send('The event for the given date was not found.')
-  res.send(event);
+app.get(api_prefix + "/event/important/:important", (req, res) => {
+  const important = req.params.important;
+  
+  
+        res.send
+    }
+
+    // Sending 404 when not found something is a good practice
+    
 });
 
 
