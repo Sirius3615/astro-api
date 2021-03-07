@@ -13,7 +13,7 @@ const events = [
       "important" : false
     },
   {
-      "id" : 442021, // 2 - day, 4 - month, 2021 - year
+      "id" : 442021,
       "date" : "04.04.2021",
       "title" : "Moon at Last Quarter",
       "summary" : "The Moon will be prominent in the dawn sky, rising at around midnight. Over coming days, the Moon will rise later each day, so that it is visible for less time before sunrise and it less far above the eastern horizon before dawn. By the time it reaches new moon, it will rise at around dawn and set at around dusk, making it visible only during the daytime.",
@@ -46,14 +46,6 @@ app.get(api_prefix + "/event/:id", (req, res) => {
   res.send(event);
 });
 
-app.get(api_prefix + "/event/important/:important", (req, res) => {
-const event = ({important: req.params.id});
-const result = events.find(c => c.important === parseInt(req.params.important));
-  
-  if (!event) res.status(404).send('The event for the given date was not found.')
-  res.json(result); 
-    
-});
 
 
 //POST new data - admin only
