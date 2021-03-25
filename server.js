@@ -150,13 +150,58 @@ const events = [
       "important" : false
     },
   {
+      "id" : 1842021,
+      "date" : "18.04.2021",
+      "title" : "M3 is well placed",
+      "summary" : "The globular cluster M3 (NGC 5272; mag 6.2) in Canes Venatici will be well placed, high in the sky. It will reach its highest point in the sky at around midnight local time.",
+      "url" : "https://in-the-sky.org/news.php?id=20210417_17_100",
+    "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/deepsky/m3_is_well_placed.jpg",
+      "important" : false
+    },
+    {
       "id" : 1942021,
       "date" : "19.04.2021",
-      "title" : "",
+      "title" : "Mercury at superior solar conjunction",
+      "summary" : "Mercury will pass very close to the Sun in the sky as its orbit carries it around the far side of the solar system from the Earth.",
+      "url" : "https://in-the-sky.org/news.php?id=20210419_11_100",
+    "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/innerplanets/mercury.jpg",
+      "important" : false
+    },
+  {
+      "id" : 2042021,
+      "date" : "20.04.2021",
+      "title" : "Moon at First Quarter",
+      "summary" : "The Moon will pass first quarter phase, appearing prominent in the evening sky and setting in the middle of the night.",
+      "url" : "https://in-the-sky.org/news.php?id=20210420_08_100",
+    "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/moon_at_first_quarter.jpg",
+      "important" : false
+    },
+  {
+      "id" : 2242021,
+      "date" : "22.04.2021",
+      "title" : "Lyrid meteor shower 2021",
+      "summary" : "The Lyrid meteor shower will be active from 16 April to 25 April, producing its peak rate of meteors around 22 April.",
+      "url" : "https://in-the-sky.org/news.php?id=20210422_10_100",
+    "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/meteors/meteors.jpg",
+      "important" : false
+    },
+  {
+      "id" : 2342021,
+      "date" : "23.04.2021",
+      "title" : "M101 is well placed",
+      "summary" : "The pinwheel galaxy (M101, NGC 5457; mag 8.3) will be well placed, high in the sky. It will reach its highest point in the sky at around midnight local time.",
+      "url" : "https://in-the-sky.org/news.php?id=20210422_17_100",
+    "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/deepsky/m101_is_well_placed.jpg",
+      "important" : false
+    },
+  {
+      "id" : 2742021,
+      "date" : "27.04.2021",
+      "title" : "Full Moon",
       "summary" : "",
       "url" : "",
     "imageUrl" : "",
-      "important" : false
+      "important" : true
     },
   
   
