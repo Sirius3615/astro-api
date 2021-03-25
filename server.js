@@ -3,115 +3,8 @@ const express = require("express");
 const app = express();
 
 const events = [
-    
-   {
-     "id" : 832021,
-      "date" : "08.03.2021",
-      "title" : "NGC 3532 is well placed",
-      "summary" : "Across much of the world the wishing well open star cluster (NGC 3532; mag 3.0) in Carina will be well placed, high in the sky. It will reach its highest point in the sky at around midnight local time.",
-      "url" : "https://in-the-sky.org/news.php?id=20210308_17_100",
-      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/deepsky/ngc_3532_is_well_placed.jpg",
-     "important" : false
-    },
-   {
-     "id" : 932021,
-      "date" : "09.03.2021",
-      "title" : "Conjunction of the Moon and Saturn",
-      "summary" : "The Moon and Saturn will share the same right ascension, with the Moon passing 3°40' to the south of Saturn. The Moon will be 26 days old.",
-      "url" : "https://in-the-sky.org/news.php?id=20210309_20_100",
-      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/conjunctions/conjunctions.jpg",
-     "important" : false
-    },
-   {
-     "id" : 1032021,
-      "date" : "10.03.2021",
-      "title" : "Conjunction of the Moon and Jupiter",
-      "summary" : "The Moon and Jupiter will share the same right ascension, with the Moon passing 4°02' to the south of Jupiter. The Moon will be 27 days old.",
-      "url" : "https://in-the-sky.org/news.php?id=20210310_20_100",
-      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/conjunctions/conjunctions.jpg",
-     "important" : true
-    },
-   {
-     "id" : 1132021,
-      "date" : "11.03.2021",
-      "title" : "Neptune at solar conjunction",
-      "summary" : "Neptune will pass very close to the Sun in the sky as its orbit carries it around the far side of the solar system from the Earth.",
-      "url" : "https://in-the-sky.org/news.php?id=20210311_12_100",
-      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/outerplanets/neptune.jpg",
-     "important" : true
-    },
-   {
-     "id" : 1232021,
-      "date" : "12.03.2021",
-      "title" : "C/2020 R4 (ATLAS) reaches its brightest",
-      "summary" : "Comet C/2020 R4 (ATLAS) is forecast to reach its brightest. It will lie at a distance of 1.05 AU from the Sun, and at a distance of 1.47 AU from the Earth.",
-      "url" : "https://in-the-sky.org/news.php?id=20210312_19_100",
-      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/comets/comets.jpg",
-     "important" : false
-    },
-   {
-     "id" : 1332021,
-      "date" : "13.03.2021",
-      "title" : "New Moon",
-      "summary" : "The Moon will pass close to the Sun and become lost in the Sun's glare for a few days.",
-      "url" : "https://in-the-sky.org/news.php?id=20210313_08_100",
-      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/new_moon.jpg",
-     "important" : true
-    },
-   {
-     "id" : 1432021,
-      "date" : "14.03.2021",
-      "title" : "γ-Normid meteor shower 2021",
-      "summary" : "The γ-Normid meteor shower will be active from 25 February to 28 March, producing its peak rate of meteors around 14 March.",
-      "url" : "https://in-the-sky.org/news.php?id=20210314_10_100",
-      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/meteors/meteors.jpg",
-     "important" : true
-    },
-   {
-     "id" : 1832021,
-      "date" : "18.03.2021",
-      "title" : "The Moon at apogee",
-      "summary" : "The Moon will reach the furthest point along its orbit to the Earth and will appear slightly smaller than at other times.",
-      "url" : "https://in-the-sky.org/news.php?id=20210318_08_100",
-      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/the_moon_at_apogee.jpg",
-     "important" : false
-    },
-   {
-      "id" : 1932021,
-      "date" : "19.03.2021",
-      "title" : "Conjunction of the Moon and Mars",
-      "summary" : "The Moon and Mars will share the same right ascension, with the Moon passing 1°55' to the south of Mars. The Moon will be 6 days old.",
-      "url" : "https://in-the-sky.org/news.php?id=20210319_20_100",
-      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/conjunctions/conjunctions.jpg",
-     "important" : false
-    },
-   {
-     "id" : 2032021,
-      "date" : "20.03.2021",
-      "title" : "March equinox",
-      "summary" : "The March equinox marks the first day of spring for anybody living in the northern hemisphere, and the first day of autumn for anybody living in the southern hemisphere.",
-      "url" : "https://in-the-sky.org/news.php?id=20210320_07_100",
-      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/earth/earth.jpg",
-     "important" : true
-    },
-   {
-     "id" : 2132021,
-      "date" : "21.03.2021",
-      "title" : "Moon at First Quarter",
-      "summary" : "The Moon will be prominent in the evening sky, setting around midnight",
-      "url" : "https://in-the-sky.org/news.php?id=20210321_08_100",
-      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/moon_at_first_quarter.jpg",
-     "important" : false
-    },
-   {
-     "id" : 2432021,
-      "date" : "24.03.2021",
-      "title" : "10P/Tempel at perihelion",
-      "summary" : "Comet 10P/Tempel will make its closest approach to the Sun, at a distance of 1.42 AU.",
-      "url" : "https://in-the-sky.org/news.php?id=20210324_19_100",
-      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/comets/comets.jpg",
-     "important" : false
-    },
+   
+
    {
      "id" : 2632021,
       "date" : "26.03.2021",
@@ -183,7 +76,55 @@ const events = [
       "url" : "https://in-the-sky.org/news.php?id=20210404_08_100",
       "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/moon_at_last_quarter.jpg",
       "important" : false
+    },
+  {
+      "id" : 542021,
+      "date" : "05.04.2021",
+      "title" : "M94 is well placed",
+      "summary" : "",
+      "url" : "",
+      "imageUrl" : "",
+      "important" : false
+    },
+  {
+      "id" : 632021,
+      "date" : "06.03.2021",
+      "title" : "NGC 4755 is well placed",
+      "summary" : "Across much of the world the jewel box open star cluster (NGC 4755, also known as the Kappa Crucis cluster; mag 4.2) in Crux will be well placed, high in the sky. It will reach its highest point in the sky at around midnight local time",
+      "url" : "https://in-the-sky.org/news.php?id=20210405_17_100",
+      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/deepsky/ngc_4755_is_well_placed.jpg",
+      "important" : false
+    },
+  {
+      "id" : ,
+      "date" : "04.03.2021",
+      "title" : "",
+      "summary" : "",
+      "url" : "",
+      "imageUrl" : "",
+      "important" : false
+    },
+  {
+      "id" : ,
+      "date" : "04.03.2021",
+      "title" : "",
+      "summary" : "",
+      "url" : "",
+      "imageUrl" : "",
+      "important" : false
+    },
+  {
+      "id" : ,
+      "date" : "04.03.2021",
+      "title" : "",
+      "summary" : "",
+      "url" : "",
+      "imageUrl" : "",
+      "important" : false
     }
+  
+  
+  
 ];
 
 
