@@ -120,7 +120,7 @@ const events = [
       "summary" : "The Moon will pass close to the Sun and become lost in the its glare for a few days. The Moon's orbital motion carries it around the Earth once every four weeks, and as a result its phases cycle from new moon, through first quarter, full moon and last quarter, back to new moon once every 29.5 days.",
       "url" : "https://in-the-sky.org/news.php?id=20210412_08_100",
     "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/new_moon.jpg",
-      "important" : false
+      "important" : true
     },
   {
       "id" : 1442021,
