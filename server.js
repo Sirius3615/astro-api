@@ -81,14 +81,14 @@ const events = [
       "id" : 542021,
       "date" : "05.04.2021",
       "title" : "M94 is well placed",
-      "summary" : "",
-      "url" : "",
-      "imageUrl" : "",
+      "summary" : "M94 (mag 9.0) , a spiral galaxy in Canes Venatici will be well placed, high in the sky. It will reach its highest point in the sky at around midnight local time.",
+      "url" : "https://in-the-sky.org/news.php?id=20210404_17_100",
+      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/deepsky/m94_is_well_placed.jpg",
       "important" : false
     },
   {
       "id" : 632021,
-      "date" : "06.03.2021",
+      "date" : "06.04.2021",
       "title" : "NGC 4755 is well placed",
       "summary" : "Across much of the world the jewel box open star cluster (NGC 4755, also known as the Kappa Crucis cluster; mag 4.2) in Crux will be well placed, high in the sky. It will reach its highest point in the sky at around midnight local time",
       "url" : "https://in-the-sky.org/news.php?id=20210405_17_100",
@@ -96,30 +96,66 @@ const events = [
       "important" : false
     },
   {
-      "id" : ,
-      "date" : "04.03.2021",
-      "title" : "",
-      "summary" : "",
-      "url" : "",
-      "imageUrl" : "",
+      "id" : 742021,
+      "date" : "07.04.2021",
+      "title" : "Conjunction of the Moon and Jupiter",
+      "summary" : "The Moon and Jupiter will share the same right ascension, with the Moon passing 4°23' to the south of Jupiter. The Moon will be 25 days old.",
+      "url" : "https://in-the-sky.org/news.php?id=20210407_20_100",
+      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/conjunctions/conjunctions.jpg",
       "important" : false
     },
   {
-      "id" : ,
-      "date" : "04.03.2021",
-      "title" : "",
-      "summary" : "",
-      "url" : "",
-      "imageUrl" : "",
+      "id" : 842021,
+      "date" : "09.04.2021",
+      "title" : "The Moon at perihelion",
+      "summary" : "The Moon's monthly orbit around the Earth will carry it to its closest point to the Sun – its perihelion – at a distance of 0.9994 AU from the Sun.",
+      "url" : "https://in-the-sky.org/news.php?id=20210409_08_100",
+      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/the_moon_at_perihelion.jpg",
       "important" : false
     },
   {
-      "id" : ,
-      "date" : "04.03.2021",
+      "id" : 1242021,
+      "date" : "12.04.2021",
+      "title" : "New Moon",
+      "summary" : "The Moon will pass close to the Sun and become lost in the its glare for a few days. The Moon's orbital motion carries it around the Earth once every four weeks, and as a result its phases cycle from new moon, through first quarter, full moon and last quarter, back to new moon once every 29.5 days.",
+      "url" : "https://in-the-sky.org/news.php?id=20210412_08_100",
+    "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/new_moon.jpg",
+      "important" : false
+    },
+  {
+      "id" : 1442021,
+      "date" : "14.04.2021",
+      "title" : "NGC 5128 is well placed",
+      "summary" : "Across much of the world Centaurus A (NGC 5128; mag 7.8) will be well placed, high in the sky. It will reach its highest point in the sky at around midnight local time.",
+      "url" : "https://in-the-sky.org/news.php?id=20210413_17_100",
+    "imageUrl" : "",
+      "important" : false
+    },
+  {
+      "id" : 1542021,
+      "date" : "14.04.2021",
       "title" : "",
       "summary" : "",
       "url" : "",
-      "imageUrl" : "",
+    "imageUrl" : "",
+      "important" : false
+    },
+  {
+      "id" : 1442021,
+      "date" : "14.04.2021",
+      "title" : "",
+      "summary" : "",
+      "url" : "",
+    "imageUrl" : "",
+      "important" : false
+    },
+  {
+      "id" : 1442021,
+      "date" : "14.04.2021",
+      "title" : "",
+      "summary" : "",
+      "url" : "",
+    "imageUrl" : "",
       "important" : false
     }
   
