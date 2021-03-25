@@ -198,9 +198,9 @@ const events = [
       "id" : 2742021,
       "date" : "27.04.2021",
       "title" : "Full Moon",
-      "summary" : "",
-      "url" : "",
-    "imageUrl" : "",
+      "summary" : "The Moon will reach full phase. At this time of the month, the Moon is visible for much of the night, rising at around dusk, and setting at around dawn.",
+      "url" : "https://in-the-sky.org/news.php?id=20210427_08_100",
+    "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/full_moon.jpg",
       "important" : true
     },
   
