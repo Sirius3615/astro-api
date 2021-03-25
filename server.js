@@ -203,6 +203,33 @@ const events = [
     "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/full_moon.jpg",
       "important" : true
     },
+  {
+      "id" : 2842021,
+      "date" : "28.04.2021",
+      "title" : "Conjunction of Ceres and Eris",
+      "summary" : "1 Ceres and 136199 Eris will share the same right ascension, with 1 Ceres passing 4°54' to the north of 136199 Eris.",
+      "url" : "https://in-the-sky.org/news.php?id=20210428_20_100",
+      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/conjunctions/conjunctions.jpg",
+      "important" : false
+    },
+  {
+      "id" : 2942021,
+      "date" : "29.04.2021",
+      "title" : "The Moon at aphelion",
+      "summary" : "The Moon's monthly orbit around the Earth will carry it to its furthest point from the Sun – its aphelion – at a distance of 1.0091 AU from the Sun.",
+      "url" : "https://in-the-sky.org/news.php?id=20210429_08_100",
+      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/moon/the_moon_at_aphelion.jpg",
+      "important" : false
+    },
+  {
+      "id" : 3052021,
+      "date" : "30.04.2021",
+      "title" : "Uranus at solar conjunction",
+      "summary" : "Uranus will pass close to the Sun in the sky as its orbit carries it around the far side of the solar system from the Earth",
+      "url" : "https://in-the-sky.org/news.php?id=20210430_12_100",
+      "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/outerplanets/uranus.jpg",
+      "important" : false
+    }
   
   
   
