@@ -126,38 +126,39 @@ const events = [
       "id" : 1442021,
       "date" : "14.04.2021",
       "title" : "NGC 5128 is well placed",
-      "summary" : "Across much of the world Centaurus A (NGC 5128; mag 7.8) will be well placed, high in the sky. It will reach its highest point in the sky at around midnight local time.",
+      "summary" : "Across much of the world Centaurus A (NGC 5128; mag 7.8) will be well placed, high in the sky. It will reach its highest point in the sky at around midnight local time. (UTC +1)",
       "url" : "https://in-the-sky.org/news.php?id=20210413_17_100",
-    "imageUrl" : "",
+    "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/deepsky/ngc_5128_is_well_placed.jpg",
       "important" : false
     },
   {
       "id" : 1542021,
-      "date" : "14.04.2021",
+      "date" : "15.04.2021",
+      "title" : "M51 is well placed",
+      "summary" : "The whirlpool galaxy (M51, NGC 5194; mag 9.0) will be well placed, high in the sky. It will reach its highest point in the sky at around midnight local time. (UTC +1)",
+      "url" : "https://in-the-sky.org/news.php?id=20210414_17_100",
+    "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/deepsky/m51_is_well_placed.jpg",
+      "important" : false
+    },
+  {
+      "id" : 1742021,
+      "date" : "17.04.2021",
+      "title" : "M83 is well placed",
+      "summary" : "Across much of the world the southern pinwheel galaxy (M83, NGC 5236; mag 8.2), a face-on spiral galaxy in Hydra will be well placed, high in the sky. It will reach its highest point in the sky at around midnight local time.",
+      "url" : "https://in-the-sky.org/news.php?id=20210416_17_100",
+    "imageUrl" : "https://in-the-sky.org/image.php?style=icon&img=imagedump/deepsky/m83_is_well_placed.jpg",
+      "important" : false
+    },
+  {
+      "id" : 1942021,
+      "date" : "19.04.2021",
       "title" : "",
       "summary" : "",
       "url" : "",
     "imageUrl" : "",
       "important" : false
     },
-  {
-      "id" : 1442021,
-      "date" : "14.04.2021",
-      "title" : "",
-      "summary" : "",
-      "url" : "",
-    "imageUrl" : "",
-      "important" : false
-    },
-  {
-      "id" : 1442021,
-      "date" : "14.04.2021",
-      "title" : "",
-      "summary" : "",
-      "url" : "",
-    "imageUrl" : "",
-      "important" : false
-    }
+  
   
   
   
